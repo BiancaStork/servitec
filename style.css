@@ -79,20 +79,19 @@ h6{
     width: 100%;
     min-height: 75vh;
     display: flex;
-    /* justify-content: center; */
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     background-color: var(--hero-opacity-color);
 
 }
 
 
 .hero-image-title{
-margin-top: 5vw;
-margin-left:2rem;
+/*  */
 color: var(--first-color, #13046B);
 text-align: right;
 font-family: Roboto;
-font-size: 8.5vw; /*3rem 32px*/
+font-size: 7.5vw; /*3rem 32px*/
 font-style: normal;
 font-weight: 900;
 line-height: 116.688%; /* 101.518px */
@@ -107,15 +106,15 @@ font-size: 5vw; /*16px*/
 font-style: normal;
 font-weight: 900;
 line-height: 126.688%; /* 87.414px */
-letter-spacing: 1.25vw; /*16.5px*/
+letter-spacing: 2vw; /*16.5px*/
 }
 .hero-image-description{
-margin-left: 2rem;
+margin-left: 15vw;
 padding: 0.5rem;
 color: var(--black-color);
-text-align: right;
+text-align: left;
 font-family: Roboto Condensed;
-font-size:2.5vw; /*20px*/
+font-size:3.5vw; /*20px*/
 font-style: italic;
 font-weight: 300;
 line-height: 105.687%; /* 33.82px */
