@@ -182,6 +182,10 @@ background-color: var(--fondo-nav);
 
 /*---Utilidades---*/
 
+.bg-gray-light{
+    background-color: var(--fondo-nav);
+}
+
 .box-shadow-1{
 box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.25);
 }
@@ -216,12 +220,25 @@ color:var(--first-dark-color);
 }
 .gray-scale{
 filter:grayscale(1);
+
 }
 
 .none{
     display: none;
 }
 
+.section{
+    padding: 2rem 1rem;
+}
+.section-title{
+    border-top: thin solid var(--third-color);
+    border-bottom: thin solid var(--third-color);
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    width: 25%;
+    color: var(--first-color);
+}
 
 
 .text-center{
@@ -236,11 +253,11 @@ filter:grayscale(1);
     text-align: right;
 }
 @media screen and (min-width: 1024px) {
-    /* .full-lg-screen {
+    .full-lg-screen {
       width: 100%;
       min-height: 100vh;
     }
-   */
+  
     .text-lg-center {
       text-align: center;
     }
