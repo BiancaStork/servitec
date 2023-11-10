@@ -10,6 +10,7 @@
     --black-color:#090808;
     --white-color:#FAECEC;
     --fondo:#369EF624;
+    --servicios:#0892E16B; 
     --fondo-nav:#FFFFFF;
     --font: "Roboto", sans-serif;
     --max-width:1200px;
@@ -100,6 +101,7 @@ letter-spacing: 0.435px;
 
 .hero-image-subtitle{
 color: var(--second-color, #0258A8);
+
 text-align: right;
 font-family: Roboto;
 font-size: 5vw; /*16px*/
@@ -201,8 +203,10 @@ text-align: center;
 text-decoration: none;
 color:var(--first-dark-color);
 }
+
 .btn-1{
-    background: var(--second-color);
+    background: var(--third-color);
+    border-radius: 15px;
     padding: 1rem;
     margin-top: 2rem;
     display: inline-block;
@@ -211,6 +215,22 @@ color:var(--first-dark-color);
     text-align: center;
     text-decoration: none;
     color:var(--fondo-nav);
+    }
+
+.btn-servicios{
+    background: var(--servicios);
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    display:inline-block;
+    width: auto;
+    height: 150px;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    color:var(--first-color);
     }
 
 .container{
@@ -240,7 +260,11 @@ filter:grayscale(1);
     color: var(--first-color);
 }
 
-
+/* .service-card {
+   justify-content: center;
+   justify-items: center;
+   
+} */
 .text-center{
     text-align: center;
     
@@ -276,6 +300,7 @@ filter:grayscale(1);
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
+
 
 
 .header{
@@ -340,6 +365,13 @@ margin-bottom: 0.5rem;
         justify-content: space-between;
         align-content: center;
     }
+    .services{
+        display:grid;
+        grid-template-columns: repeat(2,50%);
+        gap: 10rem;
+        justify-content: space-between;
+        align-content: center;
+    }
     .header{
         position:sticky;
         top: 0;
@@ -348,3 +380,4 @@ margin-bottom: 0.5rem;
     }
     
 }
+
