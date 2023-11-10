@@ -40,6 +40,13 @@ body{
     background-color: var(--fondo);
     
 }
+
+.footer{
+color:var(--gray-color);
+text-decoration: dotted;
+
+}
+
 h1{
     margin:0;
     font-size: 2rem;
