@@ -621,20 +621,22 @@ margin-bottom: 0.5rem;
     width: 100%;
     margin: 0 auto;
     display: block;
+    align-content: center;
   }
   
   .portfolio-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* padding: 1rem; */
   }
   
   .portfolio-card-info {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width:10%;
+    height: 10%;
     padding: 1rem;
     background-color: var(--first-alpha-color);
     color: var(--white-color);
@@ -680,7 +682,11 @@ margin-bottom: 0.5rem;
     color: var(--first-color);
   }
   
-
+.project-card{
+    margin: 1rem, auto;
+    padding: 1rem;
+    text-align: center;
+}
 .service-card{
     margin: 1rem, auto;
     padding: 1rem;
@@ -698,6 +704,12 @@ margin-bottom: 0.5rem;
     /* border-radius: 0.25rem; */
   
  }
+ .project-card img {
+  color: var(--second-color);
+  margin-bottom: 1.25rem;
+  /* border-radius: 0.25rem; */
+
+}
  .social-media a {
     padding: 0 0.4rem;
     text-decoration: none;
@@ -742,11 +754,21 @@ margin-bottom: 0.5rem;
         justify-content: space-between;
         align-content: center;
     }
+    
 
     .services .section-title {
       grid-column: span 2;
     }
 
+    .projects > .container {
+      display: grid;
+      grid-template-columns: repeat(2, 45%);
+      justify-content: space-between;
+      align-content: center;
+  }
+  .projects .section-title {
+    grid-column: span 2;
+  }
 
 }
 /*--monitores--*/
