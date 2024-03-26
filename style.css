@@ -211,7 +211,7 @@ p{
 
 .hero-image-opacity{
     width: 100%;
-    min-height: 75vh;
+    min-height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,9 +223,10 @@ p{
 .hero-image-title{
 /*  */
 color: var(--first-color, #13046B);
-text-align: right;
+text-align: left;
 font-family: Roboto;
-font-size: 7.5vw; /*3rem 32px*/
+font-size: 7.5vw; /* 3rem 32px */
+
 font-style: normal;
 font-weight: 900;
 line-height: 116.688%; /* 101.518px */
@@ -526,7 +527,7 @@ filter:grayscale(1);
 
 /*----Site Style----*/
 .about{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .about > article{
     margin-bottom: 2rem;
