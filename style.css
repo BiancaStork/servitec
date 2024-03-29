@@ -779,18 +779,18 @@ margin-bottom: 0.5rem;
 }
 /*--monitores--*/
 @media screen and (min-width:1024px){
-    .about{
+    /* .about{
         display:grid;
         grid-template-columns: repeat(2, 50%);
         /* gap: 10rem; */
-        justify-content: space-between;
+        /* justify-content: space-between;
         align-content: center;
         margin-left: 15%;
     }
     .about-card{
       
       padding-top: 8rem;
-    }
+    } */ 
     
 
     .contact-cards {
