@@ -244,16 +244,15 @@ line-height: 126.688%; /* 87.414px */
 letter-spacing: 2vw; /*16.5px*/
 }
 .hero-image-description{
-margin-top: 19vw;
-padding: 0.5rem;
-color: var(--gray-color);
-text-align: left;
+margin-top: 40%;
+margin-left: 25%;
+margin-right: auto;
+/* padding: 2 rem; */
+color: var(--black-color);
+text-align: center;
 font-family: Roboto Condensed;
-font-size:1.5rem; /*20px*/
+font-size:1rem; /*20px*/
 font-style: italic;
-font-weight: 300;
-line-height: 105.687%; /* 33.82px */
-letter-spacing: 0.64px;
 }
 
 
@@ -506,6 +505,8 @@ filter:grayscale(1);
 
 
 @media screen and (min-width: 1024px) {
+  
+    
     .full-lg-screen {
       width: 100%;
       min-height: 100vh;
@@ -792,6 +793,10 @@ margin-bottom: 0.5rem;
       padding-top: 8rem;
     } */ 
     
+    .hero-image-description{
+      /* margin-top: 85%; */
+      font-size: 1.5rem;
+    }
 
     .contact-cards {
         grid-template-columns: repeat(4, 24%);
