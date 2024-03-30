@@ -202,16 +202,17 @@ p{
   }
 /*----HeroImage---*/
 .hero-image{
-    background-image: var(--image);
+    background-image: var(--image);    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-attachment: var(--attachment); */
+    background-attachment: var(--attachment);
 }
 
 .hero-image-opacity{
     width: 100%;
-    min-height: 65vh;
+    min-height: 58vh;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,6 +298,12 @@ background-color: var(--fondo-nav);
   
 }
 @media screen and (min-width:1024px){
+  /* .hero-image-opacity{
+   width: 75%;
+   height: 75%;
+    min-height: vh;
+  } */
+
     .menu-btn{
         display: none;
     }
