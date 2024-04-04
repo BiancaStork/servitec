@@ -49,6 +49,9 @@ color:var(--gray-color);
 text-decoration: dotted;
 
 }
+.footer a {
+  text-decoration: none;
+}
 .footer .text2{
   color: var(--gray-color, #494747);
   font-family: Roboto Condensed;
