@@ -49,6 +49,14 @@ color:var(--gray-color);
 text-decoration: dotted;
 
 }
+.footer .text2{
+  color: var(--gray-color, #494747);
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
 
 h1{
     margin:0;
@@ -813,14 +821,7 @@ margin-bottom: 0.5rem;
         margin-bottom: 0;
       }
 
-      .footer .text2{
-        color: var(--gray-color, #494747);
-        font-family: Roboto Condensed;
-        font-size: 12px;
-        font-style: italic;
-        font-weight: 300;
-        line-height: normal;
-      }
+      
     
     .header{
         position:sticky;
